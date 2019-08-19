@@ -1,0 +1,53 @@
+<html>
+<head>
+
+<style>
+input {
+		border-radius=4px;
+		border:2px solid #FF0000;
+		width:100;
+		height:50;
+}
+</style>
+
+	<title>Calculator</title>
+</head>
+<center> 
+<body>
+<form name="cal">
+<table>
+<tr>
+<td colspan="4"> <input type="text" name="d"/></td>
+
+</tr>
+<tr>
+<td><input type="Button" value="1" onclick="cal.d.value += '1' "/></td>
+<td><input type="Button" value="2" onclick="cal.d.value += '2' "/></td>
+<td><input type="Button" value="3" onclick="cal.d.value += '3' "/></td>
+<td><input type="Button" value="+" onclick="cal.d.value += '+' "/></td>
+</tr>
+<tr>
+<td><input type="Button" value="4" onclick="cal.d.value += '4' "/></td>
+<td><input type="Button" value="5" onclick="cal.d.value += '5' "/></td>
+<td><input type="Button" value="6" onclick="cal.d.value += '6' "/></td>
+<td><input type="Button" value="-" onclick="cal.d.value += '-' "/></td>
+</tr>
+<tr>
+<td><input type="Button" value="7" onclick="cal.d.value += '7' "/></td>
+<td><input type="Button" value="8" onclick="cal.d.value += '8' "/></td>
+<td><input type="Button" value="9" onclick="cal.d.value += '9' "/></td>
+<td><input type="Button" value="*" onclick="cal.d.value += '*' "/></td>
+</tr>
+<tr>
+<td><input type="Button" value="C" onclick="cal.d.value = ' ' "/></td>
+<td><input type="Button" value="0" onclick="cal.d.value += '0' "/></td>
+<td><input type="Button" value="="onclick="cal.d.value = eval(cal.d.value) "/></td>
+<td><input type="Button" value="/" onclick="cal.d.value += '/' "/></td>
+</tr>
+                    
+</table>
+
+</form>
+		
+</body>
+</html>
